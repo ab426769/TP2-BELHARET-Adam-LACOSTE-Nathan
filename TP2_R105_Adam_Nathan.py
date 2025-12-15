@@ -203,8 +203,8 @@ else :
 #création du graphique demandé
 if choix == 'a' :
 	time.sleep(3)
-	plt.plot(data_alt2,data_out_temp2, label = "temp. interieur",color = 'orange')
-	plt.plot(data_alt2,data_in_temp2, label = "temp. exterieur",color = 'blue')
+	plt.plot(data_alt2,data_in_temp2, label = "temp. interieur",color = 'blue')
+	plt.plot(data_alt2,data_out_temp2, label = "temp. exterieur",color = 'orange')
 	plt.xlabel("altitude")
 	plt.ylabel("témperature")
 	plt.title("températures en fonction de l'altitude")
